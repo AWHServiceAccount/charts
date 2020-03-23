@@ -2,9 +2,9 @@ apiVersion: v1
 entries:
   andi:
   - apiVersion: v1
-    created: "2020-02-10T14:56:12.182537-05:00"
+    created: "2020-03-23T12:35:33.8139483-04:00"
     description: REST API to allow for dataset definition ingestion
-    digest: 6dc9dbb7f65a24b78d41a9ad3e1c0ea3548ef0501fdb32490115fc43b38a0d33
+    digest: 0e57c9b0b01cb0d1cfe8b0f6ce6b2873a66c7dd7cbb7b7d1707da649e6a8f643
     name: andi
     urls:
     - andi-1.2.3.tgz
@@ -85,9 +85,9 @@ entries:
     version: 1.0.0
   carpenter:
   - apiVersion: v1
-    created: "2019-08-08T10:17:35.904303738-04:00"
+    created: "2020-03-23T12:42:34.7071071-04:00"
     description: Creates tables for the SmartCitiesData platform
-    digest: 85da6bf15e5efa208739d3d083b9c87fdae2029d915ef2e0bea39556b510e8fd
+    digest: 5984009c3c60886dfda287f494b8425cbb9b3367e6828111dd32a62b517fe946
     name: carpenter
     urls:
     - carpenter-1.0.0.tgz
@@ -95,9 +95,9 @@ entries:
   discovery-api:
   - apiVersion: v1
     appVersion: 1.0.0-static
-    created: "2020-03-10T14:59:26.649868-04:00"
+    created: "2020-03-23T12:42:45.0677254-04:00"
     description: A middleware layer to connect data consumers with the data sources
-    digest: 2687cd5a2abcc0e5a652e38d6b6a6b3823060f5c8acd22b16dcacd4a78922dd6
+    digest: ef7bfad8a4d3c7670003ffddf39261ba889ee4becedb1b27306bfcd898690c55
     name: discovery-api
     urls:
     - discovery-api-0.8.2.tgz
@@ -213,10 +213,10 @@ entries:
   discovery-streams:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-01-16T10:35:33.701193-05:00"
+    created: "2020-03-23T12:42:53.3751548-04:00"
     description: Dynamically find kafka topics and makes available corresponding channels
       on a public websocket
-    digest: a486adda7ca32422b1eff5269a8fc1aecc51cca129bf678527090c950b711286
+    digest: 26467a023c23e03a24a328da226c8e1cfaf1a7529b8b204f0fcd004f13542932
     name: discovery-streams
     urls:
     - discovery-streams-0.2.1.tgz
@@ -264,9 +264,9 @@ entries:
   discovery-ui:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-01-31T09:38:05.698386-05:00"
+    created: "2020-03-23T12:43:02.6721451-04:00"
     description: A helm chart for the discovery ui
-    digest: 89be95c485faad09553798070f6b0d6d2d079d15bd653c67c0895a3cefb335ad
+    digest: 5b39302886b2ea08bafb074b1d2b15fb247c7bfe365d039640f4209dba387c70
     name: discovery-ui
     urls:
     - discovery-ui-0.3.2.tgz
@@ -345,9 +345,9 @@ entries:
     version: 0.1.1
   estuary:
   - apiVersion: v1
-    created: "2020-01-30T11:24:34.104351-05:00"
+    created: "2020-03-23T12:43:11.8959585-04:00"
     description: Reads the event stream and stores them in to event_stream table
-    digest: 3ec89b76de70abaac924726db749d7b6b3ea0c8c42747df6ca91b13f1e391d74
+    digest: 492ba9e9290b9e80ceed04c054e7bd1442ccef455ac9983a07347c6c0eb36f40
     name: estuary
     urls:
     - estuary-0.5.1.tgz
@@ -427,9 +427,9 @@ entries:
   external-services:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2019-09-27T10:15:50.10791-04:00"
+    created: "2020-03-23T12:43:18.4063148-04:00"
     description: Helm chart for external services
-    digest: fb24917c26b0edfe54c390c6b516f902546cd37e5fd18a650013cf6591ea65ba
+    digest: 0092bc134b59996b412e3ff34dca4aef9f057471c8ff1fa66ee8eba8e2851bf8
     name: external-services
     urls:
     - external-services-1.0.0.tgz
@@ -437,10 +437,10 @@ entries:
   flair:
   - apiVersion: v1
     appVersion: 1.0.0-static
-    created: "2019-07-17T12:43:29.135195026-04:00"
+    created: "2020-03-23T12:43:26.87268-04:00"
     description: Watches data on the validated topic and does profiling on its path
       through the data pipeline.
-    digest: c859e0c0f26db7c835a94de2a6a998169a117d093a3bbabc11015b8e208ddf70
+    digest: 0c42b12c343ee818dca2f267b1d209d9882853a5033049a9ab057494de5fa4ee
     name: flair
     urls:
     - flair-2.1.0.tgz
@@ -448,9 +448,9 @@ entries:
   forklift:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-02-13T11:01:44.385428-05:00"
+    created: "2020-03-23T12:43:33.2936766-04:00"
     description: Loads data from the transformed topic into Presto
-    digest: 2da955fb72333a9f728d6452ff5789a4c2409f6a80cdbd1941cfc7b4b33a4ca1
+    digest: 959ca90fb9f504939f16976afe7f2b949c18783f4e1569be25f068c8802aefa3
     name: forklift
     urls:
     - forklift-2.5.0.tgz
@@ -503,18 +503,18 @@ entries:
   genesis:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-07-17T10:55:43.822821076-04:00"
+    created: "2020-03-23T12:43:41.0050603-04:00"
     description: Loads data from the transformed topic into Presto
-    digest: 3666b3dcf5aec92c96b64e3d78c6b12264aa038ce72a9f72f38a09293501b53e
+    digest: 230fe5d8844eaee00771e3d944132a0f030558f4e6067fc7c57b039abbdab31b
     name: genesis
     urls:
     - genesis-2.0.1.tgz
     version: 2.0.1
   kubernetes-data-platform:
   - apiVersion: v1
-    created: "2020-01-23T14:20:21.816028-05:00"
+    created: "2020-03-23T12:43:50.4620309-04:00"
     description: Hadoop-less data platform for the Smart City OS
-    digest: 39aec1825475b074c7a8550a1bce008a0e28a13131aa8c0352a0150365977839
+    digest: 155289845c15cd3ce9cc5351f7042e3e65c6536a4aff74b7c88da3e8c59a4ddc
     keywords:
     - presto
     - hive-metastore
@@ -622,9 +622,9 @@ entries:
   micro-service-watchinator:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-10-02T11:05:06.739733-04:00"
+    created: "2020-03-23T12:43:56.8016887-04:00"
     description: Cron job to watch microservices and make sure they are alive
-    digest: 693486943a95d02cbc8fedef22e22c96b62120ceda5b21d5399dc3a617fbb6de
+    digest: 0f1f6fde8fdf751a27c8cc136929406ae0d3f95b3f6bb36963cb5247dbb811dc
     name: micro-service-watchinator
     urls:
     - micro-service-watchinator-1.0.1.tgz
@@ -640,9 +640,9 @@ entries:
     version: 1.0.0
   odo:
   - apiVersion: v1
-    created: "2020-01-27T14:29:22.756013-05:00"
+    created: "2020-03-23T12:44:04.0345483-04:00"
     description: shapeshifting service
-    digest: 62dfa63a2f0c9e36e1226ffcddaf59fa0688c231c9cde062c1444a542517c038
+    digest: 69c80cc8bf45f89d36a4d5ac2a465ef9bda97b49301b6ce4b57f872f730ce13a
     name: odo
     urls:
     - odo-0.2.3.tgz
@@ -720,10 +720,10 @@ entries:
   reaper:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-03-20T16:09:06.768775-04:00"
+    created: "2020-03-23T12:46:28.5889726-04:00"
     description: Elixir producer-consumer. Retrieves streamed data, and loads it onto
       a Kafka topic
-    digest: 5239150ec8dfad6320f78f6c03247e42f5ff8f0de2b6eced78f20b6b5a664388
+    digest: a176d016cc2239c9eec7d5236441e15c7a0a231e7be0f459d819f3525fa85d7f
     name: reaper
     urls:
     - reaper-0.1.3.tgz
@@ -761,9 +761,9 @@ entries:
   streisand:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-07-17T08:43:03.942124097-04:00"
+    created: "2020-03-23T12:46:38.2993699-04:00"
     description: Publishes public streaming data to the public kafka cluster
-    digest: 0d32486a6f57df65470d16e4a4d93038ae58cceeba91ea40e5c33ad216d99e78
+    digest: 85a7bb29a971b69d40e709bf17629a74e1f3192dc1089974acfd090caf9a045f
     name: streisand
     urls:
     - streisand-1.0.0.tgz
@@ -771,9 +771,9 @@ entries:
   valkyrie:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-03-20T16:09:13.087005-04:00"
+    created: "2020-03-23T12:46:45.3964975-04:00"
     description: Validates data from raw topic and writes it to validated topic
-    digest: 6d82cd68e17b608ef80e291e7ac8864e1694c79b4e8238b53dfe02d464ef6914
+    digest: 06214a4bf57359b39d43a41a49ebd676b33fc5464ae7713d3ec97cbd268b0d2b
     name: valkyrie
     urls:
     - valkyrie-2.4.1.tgz
@@ -826,9 +826,9 @@ entries:
   vault:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-09-30T15:32:48.16673-04:00"
+    created: "2020-03-23T12:46:56.2864632-04:00"
     description: Vault Secret Management
-    digest: 27002611f441cbf53027edce80c8d113834f8699da9b8ff92f377975909ba66d
+    digest: 4d2878baf46e64cdda6a6ff70d8b809a927aeb3a30d87931fffe611fffc4786f
     name: vault
     urls:
     - vault-1.0.0.tgz
@@ -836,11 +836,11 @@ entries:
   voltron:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-08-07T10:39:53.470155604-04:00"
+    created: "2020-03-23T12:47:04.2790687-04:00"
     description: Data transformation service
-    digest: 576583de8380dfd0fece1eb0adc46eadb302ccce65915c7d604649279d3672c8
+    digest: 68251e9637e8db890e43392a9b9f89b5db4da10116f3336d76a4e1e27f316225
     name: voltron
     urls:
     - voltron-1.0.0.tgz
     version: 1.0.0
-generated: "2020-03-20T16:09:13.085477-04:00"
+generated: "2020-03-23T13:03:38.8968933-04:00"
