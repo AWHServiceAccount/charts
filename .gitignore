@@ -3,3 +3,4 @@ requirements.lock
 tmp_charts/
 
 .DS_Store
+.vs/
