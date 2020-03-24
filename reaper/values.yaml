@@ -4,7 +4,7 @@ replicaCount: 1
 metadata:
   labels:
 image:
-  repository: smartcitiesdata/reaper
+  repository: awhdockerhub/reaper
   tag: development
   pullPolicy: Always
 service:

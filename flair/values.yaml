@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: smartcitiesdata/flair
+  repository: awhdockerhub/flair
   tag: development
   pullPolicy: Always
 

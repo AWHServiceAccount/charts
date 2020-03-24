@@ -2,7 +2,7 @@ dashboard:
   title: "Dashboard Metrics"
 
 image:
-  repository: smartcitiesdata/discovery_streams
+  repository: awhdockerhub/discovery_streams
   tag: development
   pullPolicy: Always
 

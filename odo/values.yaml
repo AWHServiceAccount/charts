@@ -1,6 +1,6 @@
 replicaCount: 1
 image:
-  repository: smartcitiesdata/odo
+  repository: awhdockerhub/odo
   tag: development
   pullPolicy: Always
 

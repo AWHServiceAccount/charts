@@ -16,7 +16,7 @@ ingress:
   certificate_arn: ""
 
 image:
-  name: smartcitiesdata/discovery_api
+  name: awhdockerhub/discovery_api
   tag: development
   pullPolicy: Always
 

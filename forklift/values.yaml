@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: smartcitiesdata/forklift
+  repository: awhdockerhub/forklift
   tag: development
   pullPolicy: Always
 

@@ -1,7 +1,7 @@
 replicaCount: 2
 
 image:
-  repository: smartcitiesdata/valkyrie
+  repository: awhdockerhub/valkyrie
   tag: development
   pullPolicy: Always
 

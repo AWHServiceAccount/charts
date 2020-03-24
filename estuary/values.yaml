@@ -12,7 +12,7 @@ estuary:
   dlq_topic: streaming-dead-letters
 
 image:
-  repository: smartcitiesdata/estuary
+  repository: awhdockerhub/estuary
   tag: development
   pullPolicy: Always
 
