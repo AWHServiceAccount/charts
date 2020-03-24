@@ -2,6 +2,14 @@ apiVersion: v1
 entries:
   andi:
   - apiVersion: v1
+    created: "2020-03-24T13:51:10.3244071-04:00"
+    description: REST API to allow for dataset definition ingestion
+    digest: 419bbc2d393f66b903ea360b247b1707047551ed7a9095556ad2dde61a0f4b64
+    name: andi
+    urls:
+    - andi-1.2.4.tgz
+    version: 1.2.4
+  - apiVersion: v1
     created: "2020-03-23T12:35:33.8139483-04:00"
     description: REST API to allow for dataset definition ingestion
     digest: 0e57c9b0b01cb0d1cfe8b0f6ce6b2873a66c7dd7cbb7b7d1707da649e6a8f643
@@ -93,6 +101,15 @@ entries:
     - carpenter-1.0.0.tgz
     version: 1.0.0
   discovery-api:
+  - apiVersion: v1
+    appVersion: 1.0.0-static
+    created: "2020-03-24T13:51:13.1426554-04:00"
+    description: A middleware layer to connect data consumers with the data sources
+    digest: d1474468d26d2ceefc0252b3049324541a4d074fd55ba5935e1a71479b46db87
+    name: discovery-api
+    urls:
+    - discovery-api-0.8.3.tgz
+    version: 0.8.3
   - apiVersion: v1
     appVersion: 1.0.0-static
     created: "2020-03-23T12:42:45.0677254-04:00"
@@ -211,6 +228,16 @@ entries:
     - discovery-api-0.2.0.tgz
     version: 0.2.0
   discovery-streams:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-03-24T13:51:15.911864-04:00"
+    description: Dynamically find kafka topics and makes available corresponding channels
+      on a public websocket
+    digest: 91ee040d1622b312c9116de47e5fd23ef2cf9a640422f789c87882ef49296d8f
+    name: discovery-streams
+    urls:
+    - discovery-streams-0.2.2.tgz
+    version: 0.2.2
   - apiVersion: v1
     appVersion: "1.0"
     created: "2020-03-23T12:42:53.3751548-04:00"
@@ -345,6 +372,14 @@ entries:
     version: 0.1.1
   estuary:
   - apiVersion: v1
+    created: "2020-03-24T13:51:18.6580035-04:00"
+    description: Reads the event stream and stores them in to event_stream table
+    digest: 795cbf1d9f03be6477f9e73d1212830e275fb6696118532ac350475aad28bd54
+    name: estuary
+    urls:
+    - estuary-0.5.2.tgz
+    version: 0.5.2
+  - apiVersion: v1
     created: "2020-03-23T12:43:11.8959585-04:00"
     description: Reads the event stream and stores them in to event_stream table
     digest: 492ba9e9290b9e80ceed04c054e7bd1442ccef455ac9983a07347c6c0eb36f40
@@ -437,6 +472,16 @@ entries:
   flair:
   - apiVersion: v1
     appVersion: 1.0.0-static
+    created: "2020-03-24T13:51:21.6005202-04:00"
+    description: Watches data on the validated topic and does profiling on its path
+      through the data pipeline.
+    digest: a02621c7224649c1c57ad0ae3e4f47def177a444aaff58d0021c9997298d536f
+    name: flair
+    urls:
+    - flair-2.1.1.tgz
+    version: 2.1.1
+  - apiVersion: v1
+    appVersion: 1.0.0-static
     created: "2020-03-23T12:43:26.87268-04:00"
     description: Watches data on the validated topic and does profiling on its path
       through the data pipeline.
@@ -446,6 +491,15 @@ entries:
     - flair-2.1.0.tgz
     version: 2.1.0
   forklift:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-03-24T13:51:24.3242098-04:00"
+    description: Loads data from the transformed topic into Presto
+    digest: ed79df6da3e284a16b8a231293e642e5d55a42b00d9db196eec55cafbb55e9d9
+    name: forklift
+    urls:
+    - forklift-2.5.1.tgz
+    version: 2.5.1
   - apiVersion: v1
     appVersion: "1.0"
     created: "2020-03-23T12:43:33.2936766-04:00"
@@ -640,6 +694,14 @@ entries:
     version: 1.0.0
   odo:
   - apiVersion: v1
+    created: "2020-03-24T13:51:27.2550944-04:00"
+    description: shapeshifting service
+    digest: f0b6ae85b5afd023cd4803c7ce084bddc15bd5b16df8317a23ea9d721d6c1da2
+    name: odo
+    urls:
+    - odo-0.2.4.tgz
+    version: 0.2.4
+  - apiVersion: v1
     created: "2020-03-23T12:44:04.0345483-04:00"
     description: shapeshifting service
     digest: 69c80cc8bf45f89d36a4d5ac2a465ef9bda97b49301b6ce4b57f872f730ce13a
@@ -720,6 +782,16 @@ entries:
   reaper:
   - apiVersion: v1
     appVersion: "1.0"
+    created: "2020-03-24T13:51:30.2064661-04:00"
+    description: Elixir producer-consumer. Retrieves streamed data, and loads it onto
+      a Kafka topic
+    digest: 55bd2fa3640cfd4981d5c0bbb3d3d8650497922c26338f548ab202e36ffeecfd
+    name: reaper
+    urls:
+    - reaper-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v1
+    appVersion: "1.0"
     created: "2020-03-23T12:46:28.5889726-04:00"
     description: Elixir producer-consumer. Retrieves streamed data, and loads it onto
       a Kafka topic
@@ -769,6 +841,15 @@ entries:
     - streisand-1.0.0.tgz
     version: 1.0.0
   valkyrie:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-03-24T13:51:33.0944284-04:00"
+    description: Validates data from raw topic and writes it to validated topic
+    digest: aed89b611d541462247f11e693654514af26f69b337e9a06edb6eb49aa5c95d5
+    name: valkyrie
+    urls:
+    - valkyrie-2.4.2.tgz
+    version: 2.4.2
   - apiVersion: v1
     appVersion: "1.0"
     created: "2020-03-23T12:46:45.3964975-04:00"
@@ -843,4 +924,4 @@ entries:
     urls:
     - voltron-1.0.0.tgz
     version: 1.0.0
-generated: "2020-03-23T13:03:38.8968933-04:00"
+generated: "2020-03-24T13:51:33.0934119-04:00"
